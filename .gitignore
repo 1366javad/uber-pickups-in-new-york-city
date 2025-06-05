@@ -1,0 +1,28 @@
+# 🐍 Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🔁 Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# 🔐 Environment variables
+*.env
+.env.*
+
+# 🧪 Jupyter notebooks checkpoint files
+.ipynb_checkpoints/
+
+# 📦 Package distribution
+*.egg-info/
+*.egg
+dist/
+build/
+loges/
+
+# 📁 System files
+.DS
