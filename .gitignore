@@ -26,3 +26,6 @@ loges/
 
 # 📁 System files
 .DS
+# Ignore artifacts and generated data
+artifacts/
+notebooks/
