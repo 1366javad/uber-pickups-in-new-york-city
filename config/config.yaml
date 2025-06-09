@@ -1,6 +1,8 @@
 data_ingestion:
- bucket_name: "uber-pickups-in-new-york-city"
- object_name: "uber-pickups-in-new-york-city.txt"
- storage_path: "s3.ir-thr-at1.arvanstorage.ir"
- train_ration: 0.9
- artifact_dir: "artifacts"
+  bucket_name: "uberstock"
+  object_name: "uber_stock_data.csv"
+  storage_path: "s3.ir-thr-at1.arvanstorage.ir"
+  train_ratio: 0.7  
+  val_ratio: 0.15   
+  artifact_dir: "artifacts"
+
